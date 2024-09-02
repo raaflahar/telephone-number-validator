@@ -1,0 +1,93 @@
+:root {
+  --blue: #2f3c7e;
+  --pastel-pink: #fbeaeb;
+}
+
+/* CSS Resets */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--blue);
+  min-height: 100vh;
+  padding: 60px 30px;
+  color: var(--pastel-pink);
+}
+
+main {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* Title Start */
+
+h1 {
+  margin: 50px auto;
+  font-size: 42px;
+}
+
+/* Title End */
+
+/* Container Start */
+
+#background-container {
+  min-width: 500px;
+  min-height: 200px;
+  border: solid 2px var(--pastel-pink);
+  margin: auto;
+}
+
+#content {
+  margin: auto;
+  text-align: center;
+  padding: 25px;
+}
+
+label {
+  font-size: 22px;
+  margin: 20px;
+}
+
+#user-input {
+  width: 257px;
+  height: 27px;
+  font-size: 17px;
+  text-align: center;
+  margin: 20px;
+}
+
+button {
+  justify-content: space-between;
+  width: 125px;
+  height: 25px;
+  font-size: 15px;
+  color: var(--pastel-pink);
+  background-color: var(--blue);
+  margin-left: 4px;
+}
+/* Container End */
+
+/* Output Start */
+
+#results-div {
+  color: var(--blue);
+  background-color: var(--pastel-pink);
+  margin: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Output End */
